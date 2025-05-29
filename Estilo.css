@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'Poppins';
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+/* Conteiner Início*/
+.inicio{
+    display: block;
+    background-color: #7335b7;
+    width: 98vw;
+    height: 100vh;
+    border-radius: 0px 0px 280px 0px;
+    position: relative;
+    flex-direction: wrap;
+}
+
+ .imginicio{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    display: inline-block;
+ }
+ .textoinicio{
+    text-align: center;
+    color: white;
+    top: 250px;
+    left: 600px;
+    display:inline-block;
+    position: absolute;
+ }
+ .logo {
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: inline-block;
+    margin-left: 280px;
+ }
+ .nav{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 280px;
+ }
+.faq {
+    text-align: left;
+    display: inline-block;
+    margin-left: 250px;
+ }
+ 
+ button{
+   background-color: #7335b7;
+   color: white;
+   padding: 10px 20 px;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+}
+button:hover {
+    background-color: #ffff;
+    color: #7335b7;
+    border-radius: 5px;
+    padding: 10px 20 px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ /*Fim do Contâiner Inicio*/
+
+ /*Inicio do Contâiner Sobre Nós*/
+
+ .sobre {
+   background-color: #7335b7;
+   margin-top: 20px;
+   top: 50px;
+   width: 98vw;
+   height: 100vh;
+   border-radius: 280px 0px 280px 0px;
+   position: relative;
+   display: block;
+ }
+ .sobreimagem {
+   position: absolute;
+   top: 80px;
+   left: 30px;
+   display: inline-block;
+ }
+ .sobretexto {
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   top: 250px;
+   left: 600px;
+   display: inline-block;
+   position: absolute;
+ }
+ /*Fim do Contâiner Sobre Nós*/
+
+ /*Inicio do Contâiner Serviços*/
+ 
+ .serv {
+   align-items: center;
+   display:block;
+   position: absolute;
+   margin-top: 30px;
+ }
+ .quadros {
+position: absolute;
+display: block;
+text-align: center;
+ }
+ .quadro1 {
+   display: inline-block;
+   padding: 10px 5px 5px;
+   width: 280px;
+   height: 320px;
+   margin-top: 40px;
+   margin-left: 10px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #777;
+   border: 0.3px solid #CCC;
+   text-align: center;
+   position: absolute;
+ }
+ .quadro2 {
+   display: inline-block;
+   padding: 10px 5px 5px;
+   width: 280px;
+   height: 320px;
+   margin-top: 40px;
+   margin-left: 500px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #777;
+   border: 0.3px solid #CCC;
+   text-align: center;
+   position: absolute;
+ }
+ .quadro3 {
+   display: inline-block;
+   padding: 10px 5px 5px;
+   width: 280px;
+   height: 320px;
+   margin-top: 40px;
+   margin-left: 1000px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #777;
+   border: 0.3px solid #CCC;
+   text-align: center;
+   position: absolute;
+ }
+ .quadro4 {
+   display: inline-block;
+   padding: 10px 5px 5px;
+   width: 280px;
+   height: 320px;
+   margin-top: 40px;
+   margin-left: 1500px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #777;
+   border: 0.3px solid #CCC;
+   text-align: center;
+   position: absolute;
+ }
+ /* Fim do Container Serviço*/
+
+ /* Inicio do Container Contato*/
+
+ .cont {
+   background-color: #7335b7;
+   top: 3000px;
+   width: 98vw;
+   height: 100vh;
+   border-radius: 0px 0px 280px 0px;
+   position: absolute;
+   display: block;
+   color: #CCC;
+ }
+ .imgcontato {
+   position: absolute;
+   top: 80px;
+   left: 1000px;
+   display: inline-block;
+   width: auto;
+   height: 280px;
+ }
+ .formbox {
+   text-align: justify;
+   position: absolute;
+   display: block;
+   margin-left: 60px;
+   margin-top: 200px;
+ }
+ .form input[type=text] {
+   outline: unset;
+   padding: 10px;
+   border: none;
+   display: flex;
+   border-radius: 10px;
+   background-color: #fff;
+ }
